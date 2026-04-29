@@ -35,3 +35,30 @@ out/
 
 ### VS Code ###
 .vscode/
+
+### Frontend (node) ###
+/frontend/node_modules/
+/frontend/build/
+/frontend/.env
+
+### Node modules (general) ###
+node_modules/
+
+### Backend ###
+/backend/.gradle/
+/backend/build/
+
+### Logs / temp ###
+hs_err_pid*.log
+*.log
+tmp/
+*.tmp
+.env
+.DS_Store
+coverage/
+
+### npm / yarn ###
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
